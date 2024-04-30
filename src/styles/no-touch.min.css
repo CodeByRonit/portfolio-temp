@@ -148,7 +148,7 @@ button:focus {
 }
 .skill__square i:hover,
 .skill__square svg:hover {
-  color: #ff4753 !important;
+  color: #e96224 !important;
 }
 .third {
   width: 75%;
@@ -188,7 +188,8 @@ button:focus {
 .img-pro {
   height: 100%;
   width: 100%;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: all 0.5s;

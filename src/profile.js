@@ -122,6 +122,13 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
+    name: "Hyperlocology",
+    skills: ["React js, Node js, Mysql, MongoDb"],
+    url: "https://github.com/",
+  },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project7",
     name: "Jeeto gyan se",
     skills: ["Node js, MongoDb"],
     url: "https://github.com/",
@@ -140,10 +147,10 @@ const contact = {
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
+  github: "https://github.com/agnibhojronit",
   facebook: "https://facebook.com",
   instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
+  linkedin: "https://www.linkedin.com/in/ronit-agnibhoj/",
 };
 // Dont change anything here
 export {
