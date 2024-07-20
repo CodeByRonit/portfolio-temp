@@ -1,6 +1,6 @@
 import React from 'react'
 import Particles from 'react-particles-js'
-import { background } from '../../profile'
+import { background } from '../../constants'
 
 const ParticlesBackground = () => {
     return (

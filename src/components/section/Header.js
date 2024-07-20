@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
-import { header } from '../../profile'
+import { header } from '../../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIdCardClip } from '@fortawesome/free-solid-svg-icons';
 

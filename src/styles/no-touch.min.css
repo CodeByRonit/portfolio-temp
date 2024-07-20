@@ -15,6 +15,9 @@ button:focus {
 .lead {
   font-weight: 400;
 }
+.half .lead2 {
+  padding: 0;
+}
 .bg-danger {
   background-color: var(--primary-color) !important;
 }
@@ -346,11 +349,16 @@ textarea:focus {
 .gtp {
   position: fixed;
   left: 93%;
-  height: 100px;
+  height: auto;
+  width: 50px;
   top: 88%;
   z-index: 1002;
   cursor: pointer;
 }
+/* .gtp{
+  width: 50px;
+  height: auto;
+} */
 .see {
   background-color: var(--primary-color);
   color: #fff;
@@ -476,6 +484,30 @@ input:checked + .slider:before {
   color: #fff;
   background: var(--primary-color);
 }
+
+/* Media query for medium screens for contact svg */
+@media (max-width: 1200px) {
+  .gtp {
+    height: 8vh;
+  }
+}
+
+/* Media query for small screens  for contact svg */
+@media (max-width: 768px) {
+  .gtp {
+    height: 6vh;
+    left: 85%; /* Adjust left position if needed */
+  }
+}
+
+/* Media query for extra small screens for contact svg*/
+@media (max-width: 480px) {
+  .gtp {
+    height: 4vh;
+    left: 80%; /* Adjust left position if needed */
+  }
+}
+
 @media (max-width: 1300px) {
   .effect2 {
     width: 100%;

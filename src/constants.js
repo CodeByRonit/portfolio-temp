@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "1.5+ years experience in Software Development in Javascript, Node.js and AWS. Fundamental knowledge of application development using JavaScript technologies like React JS, Angular, Node JS, REST.",
+    "2+ years experience in Software Development in Javascript, Node.js and AWS. Fundamental knowledge of application development using JavaScript technologies like React JS, Angular, Node JS, REST.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -139,8 +139,8 @@ const projects = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
-  pitch:
-    "I'm always open to collaborations, job opportunities, and connecting with like-minded individuals. Don't hesitate to drop me a message, and I'll get back to you as soon as possible.",
+  pitch: "I'm always open to collaborations, job opportunities, and connecting with like-minded individuals. Don't hesitate to drop me a message, and I'll get back to you as soon as possible.",
+  pitch2: "Whether you're looking for someone to join your team, seeking a freelancer for a project, or just want to network, feel free to reach out!",
   copyright: "Ronit Agnibhoj",
   contactUrl: "https://formspree.io/f/mzbndjrk",
 };
