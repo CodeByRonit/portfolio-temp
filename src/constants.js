@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "2+ years experience in Software Development in Javascript, Node.js and AWS. Fundamental knowledge of application development using JavaScript technologies like React JS, Angular, Node JS, REST.",
+    "Around 3 years experience in Software Development in Javascript, Node.js and AWS. Fundamental knowledge of application development using JavaScript technologies like React Js, React Native, Angular, Node JS, REST.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -43,6 +43,11 @@ const skillsBar = [
   },
   {
     name: "React",
+    // svg: '',
+    faClass: "fab fa-react",
+  },
+  {
+    name: "React Native",
     // svg: '',
     faClass: "fab fa-react",
   },
